@@ -160,3 +160,15 @@ input[type="checkbox"]:checked ~ .todo-text {
 .delete-button:hover svg {
     fill: var(--delete-hover);
 }
+
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #add-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
